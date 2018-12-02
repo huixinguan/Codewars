@@ -1,3 +1,3 @@
 # Codewars
-Daily exercises from Codewars
-Codewars: https://www.codewars.com
+Daily exercises from Codewars.
+Codewars Link: https://www.codewars.com
