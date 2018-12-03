@@ -1,0 +1,21 @@
+In this mission you should check if all elements in the given list are equal. 
+Input: List. 
+Output: Bool. 
+Example: 
+all_the_same([1, 1, 1]) == True
+all_the_same([1, 2, 1]) == False
+all_the_same(['a', 'a', 'a']) == True
+all_the_same([]) == True
+all_the_same([1]) == True
+
+
+code:
+def all_the_same(elements):
+    if len(elements)==0:
+        return True
+    import collections
+    l = collections.Counter(elements)
+    if len(l.keys())==1:
+        return True
+    else:
+        return False
